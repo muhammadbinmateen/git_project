@@ -14,7 +14,7 @@ class masterController extends Controller
     public function indexAction(Request $request)
     {
         // replace this example code with whatever you need
-        return $this->render('Master/route2-master.html.twig');
+        return $this->render('Master/master.html.twig');
     }
 
 
