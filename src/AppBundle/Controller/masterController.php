@@ -14,7 +14,7 @@ class masterController extends Controller
     public function indexAction(Request $request)
     {
         // replace this example code with whatever you need
-        return $this->render('Master/grand-master.html.twig');
+        return $this->render('Master/master.html.twig');
     }
 
 
@@ -37,7 +37,24 @@ class masterController extends Controller
     }
 
 
+    /**
+     * @Route("/route4", name="route-4")
+     */
+    public function fourthrouteAction(Request $request)
+    {
+        // replace this example code with whatever you need
+        return $this->render('Master/submaster.html.twig');
+    }
+    
 
+    /**
+     * @Route("/route5", name="route-5")
+     */
+    public function fifthrouteAction(Request $request)
+    {
+        // replace this example code with whatever you need
+        return $this->render('Master/submaster.html.twig');
+    }
 
 
 }
