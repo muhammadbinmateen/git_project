@@ -38,6 +38,16 @@ class masterController extends Controller
 
 
     /**
+     * @Route("/route4", name="route-4")
+     */
+    public function fourthrouteAction(Request $request)
+    {
+        // replace this example code with whatever you need
+        return $this->render('Master/submaster.html.twig');
+    }
+    
+
+    /**
      * @Route("/route5", name="route-5")
      */
     public function fifthrouteAction(Request $request)
