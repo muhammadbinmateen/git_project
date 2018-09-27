@@ -27,6 +27,17 @@ class masterController extends Controller
         return $this->render('Master/submaster.html.twig');
     }
 
+    /**
+     * @Route("/route3", name="route-3")
+     */
+    public function thirdrouteAction(Request $request)
+    {
+        // replace this example code with whatever you need
+        return $this->render('Master/submaster.html.twig');
+    }
+
+
+
 
 
 }
